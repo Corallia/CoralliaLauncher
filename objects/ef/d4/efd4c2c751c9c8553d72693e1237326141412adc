@@ -1,0 +1,164 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -65
+  action = movebutton
+  y = -4
+}
+
+customization {
+  identifier = %id=400322%
+  width = 135
+  action = resizebutton
+  height = 15
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = Serveurs
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-left
+  x = 98
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-right
+  x = -20
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = -5
+}
+
+customization {
+  identifier = %id=400298%
+  width = 135
+  action = resizebutton
+  height = 15
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 240
+  slim = false
+  actionid = dc6c8865-acdf-49dc-a66d-7689cb2b175a1675590036034
+  action = addentity
+  y = 125
+  scale = 30
+  parrot = false
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = 661ab783-845f-44cf-8c25-a6448dab2a661691758065514
+  y = 13
+  scale = 1.0
+  alignment = centered
+  value = %serverping:<91.174.155.218:32768>%
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  x = -50
+  width = 100
+  actionid = fb03019a-f93e-436e-8f0d-34f019e3f2751691758089167
+  action = addbutton
+  y = -9
+  label = Join Server
+  value = 91.174.155.218:32768
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = 38994345-3411-405a-bed1-1b4c15d1a8e11691758122619
+  y = 33
+  scale = 1.0
+  alignment = centered
+  value = %serverstatus:<91.174.155.218:32768>%
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = a2d3936d-7241-4f05-854c-d3ba56ef02441691758148449
+  y = 23
+  scale = 1.0
+  alignment = centered
+  value = %serverplayercount:<91.174.155.218:32768>%
+}
+
