@@ -1,0 +1,108 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -67
+  action = movebutton
+  y = -7
+}
+
+customization {
+  identifier = %id=400322%
+  width = 135
+  action = resizebutton
+  height = 15
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = Serveurs
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-left
+  x = 98
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-right
+  x = -20
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = -5
+}
+
+customization {
+  identifier = %id=400298%
+  width = 135
+  action = resizebutton
+  height = 15
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 240
+  slim = false
+  actionid = dc6c8865-acdf-49dc-a66d-7689cb2b175a1675590036034
+  action = addentity
+  y = 125
+  scale = 30
+  parrot = false
+}
+
